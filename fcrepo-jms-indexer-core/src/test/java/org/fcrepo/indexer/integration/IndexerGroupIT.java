@@ -45,7 +45,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration({"/spring-test/test-container.xml"})
 public class IndexerGroupIT extends IndexingIT {
 
-    private static final long TIMEOUT = 15000;
+    private static final long TIMEOUT = 30000;
 
     @Inject
     private IndexerGroup indexerGroup;
